@@ -1,9 +1,3 @@
-# NETWORKWALKS-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP
-Isolated virtual penetration testing and cybersecurity lab environment built with Kali Linux on Oracle VirtualBox using an internal NAT Network architecture.
-
-
-
-
 <h1>Cybersecurity &amp; Penetration Testing Lab Setup</h1>
 
 <h2>Project Overview</h2>
@@ -117,6 +111,7 @@ Isolated virtual penetration testing and cybersecurity lab environment built wit
   Using a virtual machine allows me to practise cybersecurity techniques in a dedicated environment without needing a separate physical computer for Kali Linux.
 </p>
 <img width="1920" height="1080" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/b6f07477-d9db-44a5-82eb-221ae2441312" />
+<img width="1919" height="960" alt="kali" src="https://github.com/user-attachments/assets/0fac1cc2-1946-4569-a6f0-784f3a52e272" />
 
 <h3>3. Configuring the Virtual Network</h3>
 
@@ -146,6 +141,7 @@ Isolated virtual penetration testing and cybersecurity lab environment built wit
 <p>
   I was able to get Internet connectivity working in Kali Linux.
 </p>
+<img width="1920" height="963" alt="Screenshot_2026-10-27_02_56_51" src="https://github.com/user-attachments/assets/b90bf86a-5c6c-4541-a851-28447c184c5e" />
 
 <h3>5. Verifying Network Settings</h3>
 
@@ -165,6 +161,7 @@ ip -4 addr</code></pre>
 <p><strong>Checking active NetworkManager connections:</strong></p>
 
 <pre><code>nmcli connection show --active</code></pre>
+<img width="928" height="273" alt="ipadd" src="https://github.com/user-attachments/assets/46a40f47-6540-4232-9998-58f4b7e2795c" />
 
 <p>
   These commands help me inspect the network interfaces, IP configuration, routing information, and active network connections of my Kali Linux virtual machine.
